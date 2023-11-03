@@ -45,12 +45,12 @@ function Navbar() {
    <img className='logo' src={logo} alt="logo"/>   {/***********the first logo********/}
 
     <div className={`nav-elements ${showNavbar && "active"}`}>
-    <ul>
+    <ul className='nav-menu'>
        <li><NavLink>الصفحة الرئيسية</NavLink></li>
        <li><NavLink>التصنيفات الرئيسية</NavLink></li>
        <li><NavLink>خدمات الوزارة</NavLink></li>
-      <li><NavLink>المركزالاعلامي</NavLink></li>
-      <li><NavLink>المعاييروالنظم</NavLink></li>
+      <li><NavLink>المركز الاعلامي</NavLink></li>
+      <li><NavLink>المعايير والنظم</NavLink></li>
        <li><NavLink>الوزارة</NavLink></li>
     </ul>
     <img className='logo1' src={logoo} alt='logo'/>    {/***********the second logo********/}

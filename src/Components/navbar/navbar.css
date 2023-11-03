@@ -5,35 +5,39 @@ nav{
     position: fixed;  
 }
 .icons{
-   padding-top: 0.5rem;
+    padding: 2.12rem;
     margin-left:0.5rem;
+    display: flex;
+    gap: 2rem;
 }
-img{
-    padding:0.8rem;
-    margin:auto;
-}
+
 .menu , .mlogo , .icon1 , .icon2{
     display: none;
 }
 
 .main{
     display: flex;
-    gap: 5rem;
+    justify-content: space-between;
     position: relative;
-}
-ul{
-    list-style: none;
+    width: 100%;
     margin: auto;
-    margin-right: 30px;
+}
+.nav-menu{
+    list-style: none;
     display: flex;
-    gap: 2rem;
+    gap: 2.2rem;
+    align-items: center;
     color: #053779;
     direction:rtl;
+    padding: 0!important;
 }
-
+.nav-menu li{
+    padding:2rem 0 2rem 0;
+    margin:auto;
+}
 .nav-elements{
     display: flex;
-    gap:2rem;
+    gap:10rem;
 }
 .nav-elements ul a {
     font-weight: 600;
@@ -56,7 +60,13 @@ ul{
 
 
  /* *******************media with md sc************************* */
+ @media (min-width: 1200px){
+    .container{
+        max-width: 100%!important;
+    }
+ }
 @media screen and (max-width:1200px) and (min-width:800px) {
+    
     .line img , .logo{
     display: none;
     }
