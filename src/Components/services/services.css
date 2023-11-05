@@ -1,0 +1,30 @@
+.services-section{
+    padding:  0 8.81rem 0 8.81rem;
+}
+.title-sec {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(---color-blue);
+    text-align: center;
+    padding-top: 9.38rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4.69rem;
+}
+.services {
+    padding: 4.96rem 0rem 0 0rem;
+    width: 100%;
+    gap: 4rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.content{
+    display: flex;
+
+}
+.content a{
+    padding-top: 3rem;
+}

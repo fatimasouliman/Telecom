@@ -1,0 +1,13 @@
+.filter{
+    list-style: none;
+    display: flex;
+    direction: rtl;
+    justify-content: center;
+    gap: 1.62rem;
+}
+
+.filter li {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(---color-blue);
+}
