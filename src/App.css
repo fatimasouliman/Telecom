@@ -4,6 +4,8 @@
   background-color: #FBFBFB;;
 }
 
-/* .app{
-  background-color: var(---color-blue);
-} */
+.app{
+  background-color: #FBFBFB;
+  width: 100%;
+}
+

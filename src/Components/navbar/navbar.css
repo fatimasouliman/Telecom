@@ -1,10 +1,14 @@
+
 nav{
+
+    height: max-content;
+    width: 100%;
+    position: sticky;
+    z-index: 99;  
     height:max-content;
-    width:100%;
     background-color:  #FBFBFB;
-    position: relative;
-    
 }
+
 .icons{
     padding: 2.12rem;
     margin-left:0.5rem; 
@@ -15,7 +19,9 @@ nav{
 .menu , .mlogo , .icon1 , .icon2{
     display: none;
 }
-
+.logo1{
+    padding-right: 0.5rem;
+}
 .main{
     display: flex;
     gap: 10rem;
