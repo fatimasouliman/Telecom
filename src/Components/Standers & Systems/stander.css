@@ -1,0 +1,19 @@
+.stander {
+    padding-top: 15.24rem;
+}
+.stander .image-card {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.stander .img-card {
+    padding: 0 !important;
+    height: 100%;
+}
+
+.stander .title-stander {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(---color-blue);
+    text-align: center;
+}

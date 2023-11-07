@@ -7,6 +7,7 @@ import Services from './Components/services/Services';
 import { Carousel } from './Components/carousel/Carousel';
 import {slides} from "./data/carouselData.json"
 import Footer from './Components/Footer/Footer';
+import Stander from './Components/Standers & Systems/Stander';
 
 
 
@@ -18,6 +19,7 @@ function App() {
       <Navbar/>
       <Carousel data={slides} />
       <Services />
+      <Stander />
       <Footer />
      
 
