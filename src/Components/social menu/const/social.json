@@ -1,0 +1,19 @@
+{
+    "social" : [
+    {
+        "icon": "<BsFacebook />",
+        "url":"hh"
+    },
+    {
+        "icon": "<AiFillInstagram />",
+        "url":"nhh"
+    },
+    {
+        "icon": "<AiFillLinkedin />",
+        "url":"hh"
+    },
+    {
+        "icon": "<FaSquareXTwitter />",
+        "url":"hh"
+    }
+]}

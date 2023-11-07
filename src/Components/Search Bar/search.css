@@ -22,3 +22,12 @@
     font-weight: 400;
     color: #56505066;
 }
+
+@media(max-width:990px){
+    .search{
+        width: 100%;
+    }
+    .search input{
+        width: 100%;
+    }
+}

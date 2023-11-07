@@ -1,0 +1,18 @@
+.menu-footer {
+    list-style: none;
+    color: white;
+    direction: rtl;
+
+}
+.title-footer {
+    font-size: 1.5rem!important;
+    font-weight: 500;
+}
+.menu-footer li {
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 1.86rem;
+    display: flex;
+    gap: 1rem;
+}
+

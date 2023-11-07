@@ -47,7 +47,7 @@ nav{
 }
 .nav-elements{
     display: flex;
-    gap: 15rem;
+    gap: 6rem;
 }
 .nav-elements ul a {
     font-weight: 600;

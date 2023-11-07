@@ -28,3 +28,12 @@
 .content a{
     padding-top: 3rem;
 }
+
+@media (max-width: 990px){
+    .services-section{
+        padding:  0 3rem 0 3rem;
+    }
+    .header{
+        flex-direction: column;
+    }
+}

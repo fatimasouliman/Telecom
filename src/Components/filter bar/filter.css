@@ -11,3 +11,14 @@
     font-weight: 700;
     color: var(---color-blue);
 }
+.filter li:hover{
+    color: var(---color-lightning-yellow);
+    cursor: pointer;
+}
+@media(max-width:990px){
+    .filter li{
+        font-size: 0.8125rem;
+        font-weight: 400;
+        padding-top: 2.38rem;
+    }
+}

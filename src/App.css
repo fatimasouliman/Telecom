@@ -1,11 +1,15 @@
 #root {
   margin: 0;
   padding: 0;
-  background-color: #FBFBFB;;
+  background-color: #FBFBFB;
+  ;
 }
 
-.app{
+.app {
   background-color: #FBFBFB;
   width: 100%;
+
 }
+
+
 
