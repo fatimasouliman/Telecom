@@ -1,0 +1,44 @@
+.ministry-container {
+    width: 19.58988rem;
+    height: 33rem;
+    border-radius: 0.9375rem;
+    border: 2px solid var(---color-blue);
+    background: var(---color-blue);
+    padding: 3.44rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ministry-container h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
+}
+
+.ministry-container .container-ul {
+    list-style: none;
+    direction: rtl;
+}
+
+.ministry-container .container-ul li {
+    padding-top: 0.6rem;
+    text-align: center;
+    color: var(---color-blue);
+    background-color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1.8rem;
+    width: 17.5625rem;
+    height: 3.25rem;
+    border-radius: 0.9375rem;
+    border: 2px solid var(---color-blue);
+    transition: 0.7s ease;
+}
+
+.ministry-container .container-ul li:hover{
+    cursor: pointer;
+    background-color: var( ---color-lightning-yellow);
+    color: white;
+}
