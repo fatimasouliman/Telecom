@@ -13,7 +13,6 @@ function Card({ image, title, desc }) {
         <div className='content' >
           <NavLink><img src={arrow} /></NavLink>
           <p className='card-desc' >{desc}</p>
-
         </div>
       </div>
 
