@@ -24,9 +24,7 @@
 .card-m:hover .card-desc {
     color: white;
 }
-.card-m:hover svg{
-    fill: white;
-}
+
 .image-card {
     height: 12.1875rem;
     width: 100%;
