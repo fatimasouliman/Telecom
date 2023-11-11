@@ -6,3 +6,9 @@
     padding-left: 9.22rem;
     padding-right: 9.22rem;
 }
+
+@media (max-width: 990px){
+    .ministry{
+        display: none;
+    }
+}

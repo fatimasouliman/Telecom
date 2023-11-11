@@ -17,3 +17,16 @@
     color: var(---color-blue);
     text-align: center;
 }
+
+@media (max-width: 990px){
+    .stander .card-m{
+        height: 8.75rem!important;
+        
+    }
+    .stander .card-m .card-desc{
+        padding: 0.3rem!important;
+    }
+    .stander .card-m .card-title{
+        padding: 0.3rem!important;
+    }
+}

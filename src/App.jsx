@@ -9,6 +9,8 @@ import {slides} from "./data/carouselData.json"
 import Footer from './Components/Footer/Footer';
 import Stander from './Components/Standers & Systems/Stander';
 import MinistryAboutLow from './Components/Ministry info/MinistryAboutLow';
+import RelatedSite from './Components/Related Parties/RelatedSite';
+import FriendlySites from './Components/Friendly  Sites/FriendlySites';
 
 
 
@@ -22,6 +24,7 @@ function App() {
       <Services />
       <Stander />
       <MinistryAboutLow />
+
       <Footer />
      
 

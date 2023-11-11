@@ -63,17 +63,16 @@
 
 @media (max-width: 990px) {
     .card-m {
-        width: 100%;
+        width: 24.625rem;
         height: 8.75rem;
         flex-direction: row;
-        padding: 0!important;
-        
+        padding: 0 !important;
+
     }
 
     .image-card {
         border: 0;
         align-items: normal;
-        /* background-color: transparent; */
         height: 100%;
         padding-top: 1.06rem;
     }
@@ -93,7 +92,8 @@
         padding-top: 0.1rem;
         padding: 0.5rem !important;
     }
-    .content a{
+
+    .content a {
         display: none;
     }
 }
