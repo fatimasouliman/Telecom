@@ -1,0 +1,10 @@
+.friendly-sites {
+    width: 100%;
+    padding-top: 9.83rem;
+}
+.friendly-sites h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(---color-blue);
+    text-align: center;
+}
