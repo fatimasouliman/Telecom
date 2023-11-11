@@ -52,14 +52,11 @@
     margin: 0 0.2rem;
     
 }
-/* .indicator-inactive{
-background-color:rgba(86, 80, 80, 0.4);
-} */
-/* .indicator :hover{
+
+.indicators :hover{
     cursor: pointer;
-    translate: 1rem;
-    color: rgba(245, 174, 33, 1);
-} */
+    background-color: rgba(245, 174, 33, 1);
+}
 
 @media(max-width:990px){
     .Carousel{
