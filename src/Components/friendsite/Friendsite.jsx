@@ -11,27 +11,28 @@ function Friendsite() {
         <h1>المواقع الصديقة</h1>
         <div className='fri'>
             <div className='ff'>
-                <img src={f1}/>
-                <h2>مجلس الوزراء</h2>
-            </div>
-            <div className='ff'>
-            <img src={f2}/>
-                <h2>الجمعية العلمية
-للمعلوماتية</h2>
-            </div>
-            <div className='ff'>
-            <img src={f3}/>
-                <h2>الحكومة  الالكترونية</h2>
+            <img src={f5}/>
+            <h2>الأمم المتحدة
+            الإسكوا</h2>
             </div>
             <div className='ff'>
             <img src={f4}/>
-                <h2>مجلس الشعب</h2>
+            <h2>مجلس الشعب</h2>
             </div>
             <div className='ff'>
-            <img src={f5}/>
-                <h2>الأمم المتحدة
-الإسكوا</h2>
-                 </div>
+            <img src={f3}/>
+            <h2>الحكومة  الالكترونية</h2>
+            </div>
+            <div className='ff'>  
+            <img src={f2}/>
+            <h2>الجمعية العلمية
+            للمعلوماتية</h2>
+            </div>
+            <div className='ff'>
+            <img src={f1}/>
+            <h2>مجلس الوزراء</h2>
+            </div>
+            
         </div>
     </div>
   )
