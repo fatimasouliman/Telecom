@@ -1,7 +1,7 @@
-import img1 from '../../../assets/img/img1.svg'
-import img2 from '../../../assets/img/img2.svg'
-import img3 from '../../../assets/img/img3.svg' 
-import img4 from '../../../assets/img/img4.svg'
+import img4 from '../../../assets/img/ll1.svg'
+import img3 from '../../../assets/img/ll2svg.svg'
+import img2 from '../../../assets/img/ll3.svg'
+import img1 from '../../../assets/img/ll4.svg'
 
 export const sitesR = [
     {

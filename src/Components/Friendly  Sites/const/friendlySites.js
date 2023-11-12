@@ -1,9 +1,13 @@
-import image1 from '../../../assets/img/image1.svg'
-import image2 from '../../../assets/img/image2.svg'
-import image3 from '../../../assets/img/image3.svg'
-import image4 from '../../../assets/img/image4.svg'
-import image5 from '../../../assets/img/image5.svg'
-
+import image1 from '../../../assets/img/f1.svg'
+import image2 from '../../../assets/img/f2.svg'
+import image3 from '../../../assets/img/f3.svg'
+import image4 from '../../../assets/img/f4.svg'
+import image5 from '../../../assets/img/f5.svg'
+// import f1 from './../../assets/img/f1.svg'
+// import f2 from './../../assets/img/f2.svg'
+// import f3 from './../../assets/img/f3.svg'
+// import f4 from './../../assets/img/f4.svg'
+// import f5 from './../../assets/img/f5.svg'
 export const sitesF = [
     {
         image: image1,

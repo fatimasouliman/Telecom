@@ -3,7 +3,7 @@
     background-color: var(---color-blue);
     display: flex;
     flex-direction: column;
-
+    margin-top:15.24rem;
 }
 
 .footer-header {

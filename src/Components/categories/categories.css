@@ -5,13 +5,14 @@
     height:max-content;
     flex-direction: column;
     gap:3rem;
-    align-items: center;
-    justify-content: center;
+    margin: auto;
+    padding-left: 2.5rem;
+    margin-top: 9.38rem;
 }
 .Categories{
-    width: 80%;
+    width: 100%;
+    justify-content: center;
     display: flex;
-    flex-shrink: 0;
     gap:5rem;
     flex-wrap: wrap;
     direction:rtl;
@@ -20,11 +21,11 @@
 }
 .t-catg{
 color: #053779;
-font-family: Cairo;
 font-size: 2.5rem;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+text-align: center;
 }
 .blue{
     background-color: #053779;
