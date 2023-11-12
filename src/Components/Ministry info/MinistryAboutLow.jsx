@@ -5,7 +5,6 @@ import { law } from './const/law'
 import './ministry.css'
 
 function MinistryAboutLow() {
-    console.log(about)
   return (
     <div className='ministry'>
       

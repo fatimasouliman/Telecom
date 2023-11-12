@@ -5,7 +5,7 @@ import Navbar from './Components/navbar/Navbar';
 import Card from './Components/card/Card';
 import Services from './Components/services/Services';
 import { Carousel } from './Components/carousel/Carousel';
-import {slides} from "./data/carouselData.json"
+import {slides} from "./data/carouselData"
 import Footer from './Components/Footer/Footer';
 import Stander from './Components/Standers & Systems/Stander';
 import MinistryAboutLow from './Components/Ministry info/MinistryAboutLow';
