@@ -12,8 +12,6 @@ import MinistryAboutLow from './Components/Ministry info/MinistryAboutLow';
 import RelatedSite from './Components/Related Parties/RelatedSite'
 import Categories from './Components/categories/Categories';
 import Media from './Components/media/Media';
-import Logos from './Components/logos/Logos';
-import Friendsite from './Components/friendsite/Friendsite';
 import FriendlySites from './Components/Friendly  Sites/FriendlySites'
 
 

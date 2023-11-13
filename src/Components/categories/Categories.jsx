@@ -1,11 +1,21 @@
 import React, { useRef } from 'react'
 import "./categories.css"
-import { useState } from 'react'
+import { useState , useEffect } from 'react'
 import plus from './../../assets/img/plus.svg'
 import plus2 from './../../assets/img/plus.svg'
+import axios from 'axios'
 
 
 function Categories() {
+    const [data , setData] = useState() 
+    useEffect( () => {
+        async function get() {
+          await axios.get("https://unnerving-departure.000webhostapp.com/api/mainCategories")
+      .then(res => setData(res.data.data))
+      // console.log(data)
+      }
+      get()
+      } , [])
  
     const [open , setOpen] = useState(false);
     const list = ["المكتبة الالكترونية" ,"النشاطات والفعاليات","SAS Expo" ,"إعلان الاعتمادية السورية لشركات البرمجيات"
@@ -50,15 +60,16 @@ const imgRef3 = useRef();
          <h1 className='t-catg'>التصنيفات الرئيسية</h1>
       
          <div className="Categories">
-         <div className='blue'><h2>المكتبة الالكترونية</h2></div>
-         <div className='blue'><h2>النشاطات و الفعاليات</h2></div>
-         <div className='blue'><h2>SAS Expo </h2></div>
-         <div className='blue'><h2>إعلان الاعتمادية السورية لشركات البرمجيات</h2></div>
-         <div className='blue'><h2>إعلان تعاقد سنوي</h2></div>
-         <div className='blue'> <h2>  استراتيجية التحول الرقمي للخدمات الحكومية</h2> </div>
-         <div className='blue'><h2>السياسات البريدية</h2></div>
-         <div className='blue'> <h2>سياسة الخدمة الشاملة  لقطاع الإتصالات السورية</h2> </div>
+            
+         {
+          data? data.map(ele => [
+            <div className='blue'><h2> {ele.title.ar}</h2></div>
+          ]
+          ):null
+        }
          </div> 
+
+     
    
          <div className='responsive'>
    
