@@ -1,0 +1,19 @@
+.detils{
+    padding-top: 18rem;
+    width: 100%;
+    text-align: center;
+}
+.detils img{
+    width: 100%;
+    
+}
+.detils h1{
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: 1rem;
+}
+.detils p{
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 1rem;
+}

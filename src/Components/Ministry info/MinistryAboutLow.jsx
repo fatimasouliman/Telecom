@@ -6,7 +6,7 @@ import './ministry.css'
 
 function MinistryAboutLow() {
   return (
-    <div className='ministry'>
+    <div className='ministry' id='ministryInfo'>
       
       <Container data={law} title="قوانين الوزارة" />
       <Container data={about} title="عن الوزارة" />

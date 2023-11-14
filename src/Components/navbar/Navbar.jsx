@@ -41,17 +41,17 @@ function Navbar() {
     {/* ******************************end slidbar***************************************** */}
 
       {/* ****************************main navbar****************************************** */}
-   <div className='main'>
+   <div className='main'  >
    <img className='logo' src={logo} alt="logo"/>   {/***********the first logo********/}
 
     <div className={`nav-elements ${showNavbar && "active"}`}>
     <ul className='nav-menu'>
-       <li><NavLink>الصفحة الرئيسية</NavLink></li>
-       <li><NavLink>التصنيفات الرئيسية</NavLink></li>
-       <li><NavLink>خدمات الوزارة</NavLink></li>
-      <li><NavLink>المركز الاعلامي</NavLink></li>
-      <li><NavLink>المعايير والنظم</NavLink></li>
-       <li><NavLink>الوزارة</NavLink></li>
+       <li><NavLink href='#main'>الصفحة الرئيسية</NavLink></li>
+       <li><NavLink href='#Categories' >التصنيفات الرئيسية</NavLink></li>
+       <li><NavLink href='#services' >خدمات الوزارة</NavLink></li>
+      <li><NavLink  href='#Media'>المركز الاعلامي</NavLink></li>
+      <li><NavLink href='#stander' >المعايير والنظم</NavLink></li>
+       <li><NavLink href='#ministryInfo'>الوزارة</NavLink></li>
     </ul>
     <img className='logo1' src={logoo} alt='logo'/>    {/***********the second logo********/}
     <img  className='icon1' src={Search} alt="search" />  {/***********icon  in mobile ver********/}

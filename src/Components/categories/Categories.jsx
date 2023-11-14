@@ -56,7 +56,7 @@ const imgRef3 = useRef();
 
  
      return (
-       <div className='container-catg'>
+       <div className='container-catg' id='Categories'>
          <h1 className='t-catg'>التصنيفات الرئيسية</h1>
       
          <div className="Categories">

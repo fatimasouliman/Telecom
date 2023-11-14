@@ -11,7 +11,6 @@ useEffect( () => {
   async function get() {
     await axios.get("https://unnerving-departure.000webhostapp.com/api/get_service_details/2")
 .then(res => setData(res.data.data))
-// console.log(data)
 }
 get()
 } , [])
@@ -19,8 +18,8 @@ get()
 
 
   return (
-    <div className='services-section' >
-      <h1 className='title-sec' >Services</h1>
+    <div className='services-section' id='services'>
+      <h1 className='title-sec' >خدمات الوزارة</h1>
       <div className='header' >
           <Search />
           <Filter />

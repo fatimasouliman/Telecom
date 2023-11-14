@@ -14,7 +14,7 @@ function Stander() {
   } , [] )
 
   return (
-    <div className='stander' >
+    <div className='stander' id='stander'>
       <h1 className='title-stander' >المعايير والنظم</h1>
       <div className='services row'>
       {

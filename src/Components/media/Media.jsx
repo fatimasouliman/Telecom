@@ -15,7 +15,7 @@ function Media() {
   get()
   } , [])
   return (
-    <div className='cont'>
+    <div className='cont' id='Media'>
       <h1 className='title'>المركز الاعلامي</h1>
       <div className='media-center'>
  

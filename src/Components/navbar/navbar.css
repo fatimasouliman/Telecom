@@ -1,9 +1,8 @@
 
 nav{
-
     height: max-content;
     width: 100%;
-    position: sticky;
+    position: fixed;
     z-index: 99;  
     height:max-content;
     background-color:  #FBFBFB;

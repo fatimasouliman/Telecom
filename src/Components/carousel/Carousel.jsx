@@ -15,7 +15,7 @@ export const Carousel = ({data}) => {
     };
 
     return(
-    <div className='Carousel'>
+    <div className='Carousel' id='main'>
        <div className='left'><BsChevronLeft className='arrow arrow-left' onClick={ prevSlide}/></div>
         {data.map((item,idx) =>{
             return( <img src={item.src}  alt={item.alt} key={idx} className={slide===idx ? "slide" : "slide slide-hidden"}/>
