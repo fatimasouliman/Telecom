@@ -8,7 +8,7 @@ import Detils from './Components/moreDetils/Detils.jsx';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Telocom",
     element: <App />,
     children: [
       {
